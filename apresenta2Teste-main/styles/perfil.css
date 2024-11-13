@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1A3C64, #1E3148);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 9px 50px rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+.perfil-container {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1A3C64;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#nome-usuario {
+    color: #4A7CB3;
+}
+
+#email-usuario {
+    font-size: 18px;
+    color: #b5c5d6;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #1A3C64;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b5c5d6;
+}
